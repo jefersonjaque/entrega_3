@@ -6,3 +6,6 @@ def home(request):
 
 def cajas(request):
     return render(request,'core/cajas.html')
+    
+def electronica(request):
+    return render(request,'core/electronica.html')
